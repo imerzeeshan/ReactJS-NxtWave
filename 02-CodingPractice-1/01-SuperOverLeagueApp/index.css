@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color:#f8fafc;
+    font-family: roboto;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.league-img{
+    width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+    .heading{
+        font-size: 36px;
+    }
+    .league-img{
+        width: 45%;
+    }
+}
