@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-image: linear-gradient(to left, #dd1264, #fc63a7);
+}
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.show-first-name {
+  width: 210px;
+  height: 90px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.show-last-name {
+  width: 210px;
+  height: 90px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dd1264;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+  }
+}

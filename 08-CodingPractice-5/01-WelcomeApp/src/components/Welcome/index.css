@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f0bb03;
+}
+.description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.btn {
+  height: 42px;
+  width: 158px;
+  margin-top: 10px;
+  color: #1e293b;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 56px;
+  }
+}

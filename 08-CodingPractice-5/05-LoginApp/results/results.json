@@ -1,0 +1,46 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP83UDS_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially consist of an HTML heading element with text content as \"Please Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP83UDS_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP83UDS_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "CSS code implementations should not contain \"display\" property with the value \"none\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP83UDS_TEST_4",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Login button is clicked, then the text content of the HTML heading element should be changed to \"Welcome User\"",
+      "errorMessages": [
+        "TypeError: Cannot read properties of null (reading 'isLogin')"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP83UDS_TEST_5",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Login button is clicked, then the Login button should be changed to the Logout button",
+      "errorMessages": [
+        "TypeError: Cannot read properties of null (reading 'isLogin')"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP83UDS_TEST_6",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Logout button is clicked, then the text content of the HTML heading element should be changed to \"Please Login\" and the Logout button should be changed to the Login button",
+      "errorMessages": [
+        "TypeError: Cannot read properties of null (reading 'isLogin')"
+      ]
+    }
+  ]
+}

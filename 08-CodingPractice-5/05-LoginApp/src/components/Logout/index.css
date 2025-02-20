@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    width: 120px;
+    height: 32px;
+    background-color:  #fff;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+}

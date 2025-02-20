@@ -1,0 +1,600 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ccbp test reporter</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/522ee478c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+    <script src="js/view.js"></script>
+  </head>
+  <body>
+    <div id="test-results">
+      { &quot;numFailedTestSuites&quot;: 1, &quot;numFailedTests&quot;: 3,
+      &quot;numPassedTestSuites&quot;: 0, &quot;numPassedTests&quot;: 3,
+      &quot;numPendingTestSuites&quot;: 0, &quot;numPendingTests&quot;: 0,
+      &quot;numRuntimeErrorTestSuites&quot;: 0, &quot;numTodoTests&quot;: 0,
+      &quot;numTotalTestSuites&quot;: 1, &quot;numTotalTests&quot;: 6,
+      &quot;openHandles&quot;: [], &quot;snapshot&quot;: { &quot;added&quot;: 0,
+      &quot;didUpdate&quot;: false, &quot;failure&quot;: false,
+      &quot;filesAdded&quot;: 0, &quot;filesRemoved&quot;: 0,
+      &quot;filesRemovedList&quot;: [], &quot;filesUnmatched&quot;: 0,
+      &quot;filesUpdated&quot;: 0, &quot;matched&quot;: 0, &quot;total&quot;: 0,
+      &quot;unchecked&quot;: 0, &quot;uncheckedKeysByFile&quot;: [],
+      &quot;unmatched&quot;: 0, &quot;updated&quot;: 0 }, &quot;startTime&quot;:
+      1736851834081, &quot;success&quot;: false, &quot;testResults&quot;: [ {
+      &quot;leaks&quot;: false, &quot;numFailingTests&quot;: 3,
+      &quot;numPassingTests&quot;: 3, &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0, &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: { &quot;end&quot;: 1736851841677,
+      &quot;runtime&quot;: 6171, &quot;slow&quot;: true, &quot;start&quot;:
+      1736851835506 }, &quot;skipped&quot;: false, &quot;snapshot&quot;: {
+      &quot;added&quot;: 0, &quot;fileDeleted&quot;: false, &quot;matched&quot;:
+      0, &quot;unchecked&quot;: 0, &quot;uncheckedKeys&quot;: [],
+      &quot;unmatched&quot;: 0, &quot;updated&quot;: 0 },
+      &quot;testFilePath&quot;:
+      &quot;/tmp/RJSCP83UDS/src/__tests__/login-component-jsx.js&quot;,
+      &quot;testResults&quot;: [ { &quot;ancestorTitles&quot;: [ &quot;Login App
+      tests&quot; ], &quot;duration&quot;: 186, &quot;failureDetails&quot;: [],
+      &quot;failureMessages&quot;: [], &quot;fullName&quot;: &quot;Login App
+      testsPage should initially consist of an HTML heading element with text
+      content as \&quot;Please Login\&quot;&quot;, &quot;invocations&quot;: 1,
+      &quot;location&quot;: null, &quot;numPassingAsserts&quot;: 0,
+      &quot;status&quot;: &quot;passed&quot;, &quot;title&quot;: &quot;Page
+      should initially consist of an HTML heading element with text content as
+      \&quot;Please Login\&quot;&quot;, &quot;id&quot;:
+      &quot;RJSCP83UDS_TEST_1&quot;, &quot;errorMessages&quot;: [] }, {
+      &quot;ancestorTitles&quot;: [ &quot;Login App tests&quot; ],
+      &quot;duration&quot;: 102, &quot;failureDetails&quot;: [],
+      &quot;failureMessages&quot;: [], &quot;fullName&quot;: &quot;Login App
+      testsPage should initially consist of an HTML button element with text
+      content as \&quot;Login\&quot;&quot;, &quot;invocations&quot;: 1,
+      &quot;location&quot;: null, &quot;numPassingAsserts&quot;: 0,
+      &quot;status&quot;: &quot;passed&quot;, &quot;title&quot;: &quot;Page
+      should initially consist of an HTML button element with text content as
+      \&quot;Login\&quot;&quot;, &quot;id&quot;: &quot;RJSCP83UDS_TEST_2&quot;,
+      &quot;errorMessages&quot;: [] }, { &quot;ancestorTitles&quot;: [
+      &quot;Login App tests&quot; ], &quot;duration&quot;: 10,
+      &quot;failureDetails&quot;: [], &quot;failureMessages&quot;: [],
+      &quot;fullName&quot;: &quot;Login App testsCSS code implementations should
+      not contain \&quot;display\&quot; property with the value
+      \&quot;none\&quot;&quot;, &quot;invocations&quot;: 1,
+      &quot;location&quot;: null, &quot;numPassingAsserts&quot;: 0,
+      &quot;status&quot;: &quot;passed&quot;, &quot;title&quot;: &quot;CSS code
+      implementations should not contain \&quot;display\&quot; property with the
+      value \&quot;none\&quot;&quot;, &quot;id&quot;:
+      &quot;RJSCP83UDS_TEST_3&quot;, &quot;errorMessages&quot;: [] }, {
+      &quot;ancestorTitles&quot;: [ &quot;Login App tests&quot; ],
+      &quot;duration&quot;: 136, &quot;failureDetails&quot;: [ {} ],
+      &quot;failureMessages&quot;: [ &quot;TypeError: Cannot read properties of
+      null (reading &#x27;isLogin&#x27;)\n at LoginButton.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/components/Login/index.js:7:54)\n at
+      getStateFromUpdate
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      /tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/__tests__/login-component-jsx.js:88:15)\n at
+      Promise.then.completed
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n
+      at new Promise (&lt;anonymous&gt;)\n at callAsyncCircusFn
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n
+      at _callCircusTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n
+      at _runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n
+      at run
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n
+      at runAndTransformResultsToJestFormat
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n
+      at jestAdapter
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n
+      at runTestInternal
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n
+      at runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+      ], &quot;fullName&quot;: &quot;Login App testsWhen the Login button is
+      clicked, then the text content of the HTML heading element should be
+      changed to \&quot;Welcome User\&quot;&quot;, &quot;invocations&quot;: 1,
+      &quot;location&quot;: null, &quot;numPassingAsserts&quot;: 0,
+      &quot;status&quot;: &quot;failed&quot;, &quot;title&quot;: &quot;When the
+      Login button is clicked, then the text content of the HTML heading element
+      should be changed to \&quot;Welcome User\&quot;&quot;, &quot;id&quot;:
+      &quot;RJSCP83UDS_TEST_4&quot;, &quot;errorMessages&quot;: [
+      &quot;TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)&quot; ] }, { &quot;ancestorTitles&quot;: [
+      &quot;Login App tests&quot; ], &quot;duration&quot;: 71,
+      &quot;failureDetails&quot;: [ {} ], &quot;failureMessages&quot;: [
+      &quot;TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)\n at LoginButton.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/components/Login/index.js:7:54)\n at
+      getStateFromUpdate
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      /tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/__tests__/login-component-jsx.js:103:15)\n at
+      Promise.then.completed
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n
+      at new Promise (&lt;anonymous&gt;)\n at callAsyncCircusFn
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n
+      at _callCircusTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n
+      at _runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n
+      at run
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n
+      at runAndTransformResultsToJestFormat
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n
+      at jestAdapter
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n
+      at runTestInternal
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n
+      at runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+      ], &quot;fullName&quot;: &quot;Login App testsWhen the Login button is
+      clicked, then the Login button should be changed to the Logout
+      button&quot;, &quot;invocations&quot;: 1, &quot;location&quot;: null,
+      &quot;numPassingAsserts&quot;: 0, &quot;status&quot;: &quot;failed&quot;,
+      &quot;title&quot;: &quot;When the Login button is clicked, then the Login
+      button should be changed to the Logout button&quot;, &quot;id&quot;:
+      &quot;RJSCP83UDS_TEST_5&quot;, &quot;errorMessages&quot;: [
+      &quot;TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)&quot; ] }, { &quot;ancestorTitles&quot;: [
+      &quot;Login App tests&quot; ], &quot;duration&quot;: 90,
+      &quot;failureDetails&quot;: [ {} ], &quot;failureMessages&quot;: [
+      &quot;TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)\n at LoginButton.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/components/Login/index.js:7:54)\n at
+      getStateFromUpdate
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      /tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (/tmp/RJSCP83UDS/src/__tests__/login-component-jsx.js:115:15)\n at
+      Promise.then.completed
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n
+      at new Promise (&lt;anonymous&gt;)\n at callAsyncCircusFn
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n
+      at _callCircusTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n
+      at _runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n
+      at _runTestsForDescribeBlock
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n
+      at run
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n
+      at runAndTransformResultsToJestFormat
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n
+      at jestAdapter
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n
+      at runTestInternal
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n
+      at runTest
+      (/tmp/RJSCP83UDS/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+      ], &quot;fullName&quot;: &quot;Login App testsWhen the Logout button is
+      clicked, then the text content of the HTML heading element should be
+      changed to \&quot;Please Login\&quot; and the Logout button should be
+      changed to the Login button&quot;, &quot;invocations&quot;: 1,
+      &quot;location&quot;: null, &quot;numPassingAsserts&quot;: 0,
+      &quot;status&quot;: &quot;failed&quot;, &quot;title&quot;: &quot;When the
+      Logout button is clicked, then the text content of the HTML heading
+      element should be changed to \&quot;Please Login\&quot; and the Logout
+      button should be changed to the Login button&quot;, &quot;id&quot;:
+      &quot;RJSCP83UDS_TEST_6&quot;, &quot;errorMessages&quot;: [
+      &quot;TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)&quot; ] } ], &quot;failureMessage&quot;: &quot; ●
+      :::RJSCP83UDS_TEST_SUITE_1:::Login App tests › :::RJSCP83UDS_TEST_4:::When
+      the Login button is clicked, then the text content of the HTML heading
+      element should be changed to \&quot;Welcome User\&quot;:::5:::\n\n
+      TypeError: Cannot read properties of null (reading
+      &#x27;isLogin&#x27;)\n\n 5 | class LoginButton extends Component {\n 6 |
+      isLogin = () =&gt; {\n &gt; 7 | this.setState(prevState =&gt; ({isLogin:
+      !prevState.isLogin}))\n | ^\n 8 | }\n 9 |\n 10 | render() {\n\n at
+      LoginButton.&lt;anonymous&gt; (src/components/Login/index.js:7:54)\n at
+      getStateFromUpdate
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (src/__tests__/login-component-jsx.js:88:15)\n\n ●
+      :::RJSCP83UDS_TEST_SUITE_1:::Login App tests › :::RJSCP83UDS_TEST_5:::When
+      the Login button is clicked, then the Login button should be changed to
+      the Logout button:::5:::\n\n TypeError: Cannot read properties of null
+      (reading &#x27;isLogin&#x27;)\n\n 5 | class LoginButton extends Component
+      {\n 6 | isLogin = () =&gt; {\n &gt; 7 | this.setState(prevState =&gt;
+      ({isLogin: !prevState.isLogin}))\n | ^\n 8 | }\n 9 |\n 10 | render() {\n\n
+      at LoginButton.&lt;anonymous&gt; (src/components/Login/index.js:7:54)\n at
+      getStateFromUpdate
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (src/__tests__/login-component-jsx.js:103:15)\n\n ●
+      :::RJSCP83UDS_TEST_SUITE_1:::Login App tests › :::RJSCP83UDS_TEST_6:::When
+      the Logout button is clicked, then the text content of the HTML heading
+      element should be changed to \&quot;Please Login\&quot; and the Logout
+      button should be changed to the Login button:::5:::\n\n TypeError: Cannot
+      read properties of null (reading &#x27;isLogin&#x27;)\n\n 5 | class
+      LoginButton extends Component {\n 6 | isLogin = () =&gt; {\n &gt; 7 |
+      this.setState(prevState =&gt; ({isLogin: !prevState.isLogin}))\n | ^\n 8 |
+      }\n 9 |\n 10 | render() {\n\n at LoginButton.&lt;anonymous&gt;
+      (src/components/Login/index.js:7:54)\n at getStateFromUpdate
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12102:35)\n
+      at processUpdateQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12250:20)\n
+      at updateClassInstance
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:13013:3)\n
+      at updateClassComponent
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17432:20)\n
+      at beginWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n
+      at HTMLUnknownElement.callCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3945:14)\n
+      at HTMLUnknownElement.callTheUserObjectsOperation
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)\n
+      at innerInvokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)\n
+      at invokeEventListeners
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)\n
+      at HTMLUnknownElementImpl._dispatch
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)\n
+      at HTMLUnknownElementImpl.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)\n
+      at HTMLUnknownElement.dispatchEvent
+      (node_modules/.pnpm/jsdom@16.7.0/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)\n
+      at Object.invokeGuardedCallbackDev
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:3994:16)\n
+      at invokeGuardedCallback
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:4056:31)\n
+      at beginWork$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23964:7)\n
+      at performUnitOfWork
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n
+      at workLoopSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n
+      at renderRootSync
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n
+      at performSyncWorkOnRoot
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n
+      at
+      node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11327:26\n
+      at unstable_runWithPriority
+      (node_modules/.pnpm/scheduler@0.20.2/node_modules/scheduler/cjs/scheduler.development.js:468:12)\n
+      at runWithPriority$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11276:10)\n
+      at flushSyncCallbackQueueImpl
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11322:9)\n
+      at flushSyncCallbackQueue
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:11309:3)\n
+      at batchedUpdates$1
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22387:7)\n
+      at act
+      (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n
+      at Object.eventWrapper
+      (node_modules/.pnpm/@testing-library/react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:63:28)\n
+      at fireEvent
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:16:35)\n
+      at Function.fireEvent.&lt;computed&gt; [as click]
+      (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/events.js:125:36)\n
+      at clickElement
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:88:20)\n
+      at Object.click
+      (node_modules/.pnpm/@testing-library/user-event@12.6.2/node_modules/@testing-library/user-event/dist/click.js:122:7)\n
+      at Object.&lt;anonymous&gt;
+      (src/__tests__/login-component-jsx.js:115:15)\n&quot; } ],
+      &quot;wasInterrupted&quot;: false }
+    </div>
+  </body>
+</html>
