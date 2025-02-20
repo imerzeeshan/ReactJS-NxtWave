@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.destination-item {
+  width: 80%;
+}
+
+.img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .destination-item {
+    width: 40%;
+  }
+}

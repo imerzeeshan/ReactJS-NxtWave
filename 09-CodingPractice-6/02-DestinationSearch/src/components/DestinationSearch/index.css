@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+.search-container {
+  background-color: lightgray;
+  width: 280px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  width: 230px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  color: #252627;
+  padding-left: 10px;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.destinations-container {
+  list-style: none;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-container{
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
