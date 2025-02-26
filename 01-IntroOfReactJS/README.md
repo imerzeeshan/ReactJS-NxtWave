@@ -44,48 +44,6 @@
 - Developer Toolset
 
 
-<a name="#introduction"></>
+<a name="introduction"></>
 ## 1. React JS
 React JS is an open-source JavaScript library used to build user interfaces. It was developed by Facebook.
-
-# Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
-<a name="introduction"></a>
-## Introduction
-This is the introduction section. You can link to this section using `[Introduction](#introduction)`.
-
-<a name="installation"></a>
-## Installation
-This is the installation section. You can link to this section using `[Installation](#installation)`.
-
-<a name="usage"></a>
-## Usage
-This is the usage section. You can link to this section using `[Usage](#usage)`.
-
-<a name="contributing"></a>
-## Contributing
-This is the contributing section. You can link to this section using `[Contributing](#contributing)`.
-
-
-
-# Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
-## Introduction
-This is the introduction section. You can link to this section using `[Introduction](#introduction)`.
-
-## Installation
-This is the installation section. You can link to this section using `[Installation](#installation)`.
-
-## Usage
-This is the usage section. You can link to this section using `[Usage](#usage)`.
-
-## Contributing
-This is the contributing section. You can link to this section using `[Contributing](#contributing)`.
