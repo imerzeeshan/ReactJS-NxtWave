@@ -43,8 +43,9 @@
 - Large Community
 - Developer Toolset
 
-### 1. React JS
 
 <a name="#introduction"></>
 
-React JS is an open-source JavaScript library used to build user interfaces. It was developed by Facebook. `[React JS](#introduction)`
+### 1. React JS
+
+React JS is an open-source JavaScript library used to build user interfaces. It was developed by Facebook.
