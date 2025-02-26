@@ -45,9 +45,7 @@
 
 
 <a name="#introduction"></>
-
 ## 1. React JS
-
 React JS is an open-source JavaScript library used to build user interfaces. It was developed by Facebook.
 
 # Table of Contents
