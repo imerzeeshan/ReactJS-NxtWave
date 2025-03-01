@@ -24,7 +24,11 @@ After successful authentication, employees are only allowed to access certain re
 - Admin can Read, Create, Delete, and Update the Resources
 - User can only Read and Create the Resources
 
+<img src="https://assets.ccbp.in/frontend/content/react-js/session-13-authentication-authorization-difference.png" alt="authentication authorization" width="600"/>
+
 ## 2. Authentication Flow
+
+<img src="https://assets.ccbp.in/frontend/content/react-js/session-13-authentication-flow.png" alt="authentication" width="600"/>
 
 ## 3. Route Parameters
 When a component is rendered by the Route, some additional props are passed.
